@@ -30,7 +30,6 @@ const Tabs = createBottomTabNavigator({
       } else {
         iconName = "question-circle";
       }
-
       return <FontAwesome name={iconName} size={size} color={color} />;
     }
   })
