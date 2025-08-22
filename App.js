@@ -6,8 +6,6 @@ import EventsStack from "./screens/EventsScreen";
 import ContactScreen from "./screens/ContactScreen";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 
-// Screens -------------------------------------------------
-
 // Navigator -----------------------------------------------
 const Tabs = createBottomTabNavigator({
   screens: {
