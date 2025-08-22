@@ -1,9 +1,9 @@
-import { Text, View } from 'react-native';
-import { createStaticNavigation } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './screens/HomeScreen';
-import EventsStack from './screens/EventsScreen';
-import ContactScreen from './screens/ContactScreen';
+import { Text, View } from "react-native";
+import { createStaticNavigation } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import HomeScreen from "./screens/HomeScreen";
+import EventsStack from "./screens/EventsScreen";
+import ContactScreen from "./screens/ContactScreen";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 
 // Screens -------------------------------------------------
@@ -27,7 +27,7 @@ const Tabs = createBottomTabNavigator({
       if (route.name === "Home") {
         iconName = "home";
       } else if (route.name === "Events") {
-        iconName = focused ? 'calendar' : 'calendar-o';
+        iconName = focused ? "calendar" : "calendar-o";
       } else if (route.name === "Contact") {
         iconName = focused ? "address-book" : "address-book-o";
       } else {
